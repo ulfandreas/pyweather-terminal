@@ -17,6 +17,7 @@ import bs4
 from sys import argv
 
 script, location = argv
+location = location.title()
 
 url = 'http://thefuckingweather.com/?where=%s' % (location)
 r   = requests.get(url)
