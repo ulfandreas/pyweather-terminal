@@ -2,14 +2,10 @@
 
 """
 
-v0.31
-
 Written by: https://github.com/ulfandreas
 
 Usage: weather.py "location"
 
-TODO:
-    Get it to work with argvs
 """
 
 import requests
